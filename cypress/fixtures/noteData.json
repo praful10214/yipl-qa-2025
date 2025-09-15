@@ -1,0 +1,20 @@
+{
+  "validNotes": [
+    {
+      "title": "Grocery List",
+      "description": "Buy milk, eggs, and bread."
+    },
+    {
+      "title": "Work Tasks",
+      "description": "Finish report and email manager."
+    }
+  ],
+  "updatedNote": {
+    "title": "Updated Title",
+    "description": "Updated description content."
+  },
+  "validationMessages": {
+    "titleRequired": "Title is required",
+    "descriptionRequired": "Description is required"
+  }
+}

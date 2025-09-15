@@ -1,0 +1,18 @@
+{
+  "invalidCredentials": [
+    { "email": "VALID_EMAIL", "password": "WrongPass123" },      
+    { "email": "user@wrong.com", "password": "VALID_PASSWORD" },  
+    { "email": "invalid@example.com", "password": "WrongPass123" } 
+  ],
+  "invalidEmailFormats": [
+    "plainaddress",
+    "missingatsign.com",
+    "@nouser.com",
+    "user@.com"
+  ],
+  "invalidPasswordFormats": [
+    "short",
+    "123",
+    "abc12"
+  ]
+}

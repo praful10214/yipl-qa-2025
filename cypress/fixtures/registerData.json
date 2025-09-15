@@ -1,0 +1,38 @@
+{
+  "validUsers": [
+    {
+      "email": "orange@gmail.com",
+      "name": "orange",
+      "password": "Password123!",
+      "confirmPassword": "Password123!"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "email": "",
+      "name": "",
+      "password": "",
+      "confirmPassword": ""
+    },
+    {
+      "email": "abc",
+      "name": "John Doe",
+      "password": "Password123!",
+      "confirmPassword": "Password123!"
+    },
+    {
+      "email": "user3@example.com",
+      "name": "Mismatch User",
+      "password": "Password123!",
+      "confirmPassword": "DifferentPass456!"
+    }
+  ],
+  "validationMessages": {
+    "emailRequired": "Email address is required",
+    "nameRequired": "User name is required",
+    "passwordRequired": "Password is required",
+    "confirmPasswordRequired": "Confirm Password is required",
+    "invalidEmail": "Email address is invalid",
+    "passwordMismatch": "Passwords don't match!"
+  }
+}
