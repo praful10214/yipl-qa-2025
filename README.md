@@ -1,4 +1,4 @@
-# Cypress Practice & Assignment Project
+# Test of My Notes APP
 
 ## Overview
 This repository contains Cypress tests created for the My Notes App Automation Testing.  
@@ -42,5 +42,6 @@ cypress.config.js
 ## Author
 **Praful Man Thaku**  
 Email: praful.thaku@gmail.com
+
 
 
